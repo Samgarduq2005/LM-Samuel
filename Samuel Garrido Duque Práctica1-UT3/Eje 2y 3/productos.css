@@ -1,0 +1,79 @@
+
+body {
+    background-color: beige;
+    border: 5px solid black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+section{
+    min-height: 54vh;
+}
+header {
+    background-color: cornflowerblue;
+    color: black;
+    text-align: center;
+    padding: 28px;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 9px;
+    
+   
+}
+
+.productos{
+        display: flex;
+        justify-content: center; 
+        padding: 30px;
+    
+}
+
+.polaroid {
+    width: 400px;
+    height: 300px;
+    border: 5px double black;
+    border-radius: 40px;
+    transition: transform 2.3s;
+}
+
+.polaroid:hover {
+    transform: scale(1.2);
+    
+}
+
+footer {
+    background-color: cornflowerblue;
+    text-align: end;
+    padding: 28px;
+    color: white;
+    text-align: right;
+}
+
+.separacion{
+    padding: 30px;
+}
+div{
+    margin-top: 60px;
+}

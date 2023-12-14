@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Mi Página Web</title>
+</head>
+<body>
+
+    <header>
+       <marquee SCROLLAMOUNT=70><img src="mustang-logo.png"></marquee>
+          <h1><strong>MUSTANG</strong></h1>
+          
+    </header>
+
+           <section>                        
+        <form>
+      
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Dirección correo electrónico" required autofocus>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="*********" required>
+
+            <label for="telefono">Teléfono Móvil:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" placeholder="Ejemplo: 601611953" required>
+
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            <div>
+            <label for="contraseña">
+                <input type="checkbox" id="contraseña" name="contraseña"> Recordar Contraseña
+            </label>
+            </div>
+            <button type="submit">Dar de alta</button>
+        </form> 
+    </section>       
+    <footer>
+        <p>Copyright of</p>
+            <p>Samuel Garrido Duque | Mustang 2023 &copy;</p>
+            <a href="https://instagram.com/sgd_0508_?igshid=MTNiYzNiMzkwZA==">Contacto</a>
+    </footer>
+</body>
+</html>

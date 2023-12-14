@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(JIJIjpg.jpg);
+   
+}
+
+
+header {
+    
+    min-height: 40vh;
+    max-width: 100vw;
+    background-color: black;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+form {
+    
+    margin: 20px auto; 
+    width: 400px; 
+    padding: 20px;
+    border-radius: 60px 60px 60px 1px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgb(255, 0, 0 ); 
+    
+}
+
+
+form input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    
+
+    
+}
+
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color:forestgreen;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    
+}
+
+
+footer {
+    background-color:black;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    border: 10px groove white;
+    min-height: 10vh;
+    
+ 
+}
+
+article
+{
+    color: black;
+}
